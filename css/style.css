@@ -135,11 +135,13 @@ main {
 
 .head2div2 {
     float: left;
-    width: 497px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
 }
 
 .head2div2img {
+    width: 400px;
+    height: 460px;
     border: 2px solid black;
     margin: 20px;
 }
