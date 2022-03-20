@@ -8,8 +8,10 @@ body * {
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: linear-gradient(black , black , darkred , black , darkred)
-
+    background-image: url(/img/bakcgroundweb.png);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
 }
 
 body > header,
@@ -26,22 +28,39 @@ header > div {
 }
 
 header > img {
+    border-radius: 10px;
     float: left;
-    height: 500px;
-    width: 1000px
+    margin-left: 20px;
+    height: 300px;
+    width: 1000px;
+    box-shadow: 2px 2px 20px 20px whitesmoke;
+    background-color: whitesmoke;
 }
 
 header > div {
     display: inline-block;
     width: 1000px;
-    border: 2px solid black;
+    border: 3px solid black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     padding: 40px;
+    background-image: url(/img/cloud4.png);
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 80px;
+    margin-right: 50px;
+    box-shadow: 2px 2px 20px 20px whitesmoke;
+    background-color: whitesmoke;
 
 }
 
 header > div > nav {
     float: right;
     margin-top: 10px;
+}
+
+main > img {
+    margin-top: 20px;
 }
 
 nav > a {
@@ -55,31 +74,188 @@ nav > a {
 }
 
 nav > a:hover {
-    color: whitesmoke;
-    font-size: 36px;
+    color: rgb(165, 125, 72);
+    font-size: 35px;
     margin-top: 8px;
-    box-shadow: 5px 5px 20px 20px darkred;
-    background-color: darkred;
+    box-shadow: 5px 5px 20px 20px whitesmoke;
+    background-color: whitesmoke;
 }
 
 main {
     display: inline-block;
-    border: 3px solid black;
+
 
 }
 
-main > div > h2 {
+.head2 {
+    width: 1000px;
+    height: 50px;
     text-align: center;
     font-size: 40px;
-    border: 3px solid black;
+    background-image: url(/img/cloud4.png);
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 80px;
+    margin-right: 50px;
+    box-shadow: 5px 5px 20px 20px whitesmoke;
+    background-color: whitesmoke;
 }
 
-main > div > p {
+.head2div {
     display: inline-block;
+    width: 994px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-image: url(/img/cloud4.png);
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 80px;
+    margin-right: 50px;
+    box-shadow: 5px 5px 20px 20px whitesmoke;
+    background-color: whitesmoke;
+
 }
 
-main > div > p > img {
+.head2div1 {
+    float: right;
     width: 400px;
+    height: 150px;
+    text-align: center;
+    padding-top: 20px;
+    background-image: url(/img/cloud4.png);
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 80px;
+    margin-right: 50px;
+    box-shadow: 5px 5px 20px 20px whitesmoke;
+    background-color: whitesmoke;
+
+}
+
+.head2div2 {
+    float: left;
+    width: 497px;
     height: 400px;
+}
+
+.head2div2img {
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.head3 {
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    background-image: url(/img/cloud4.png);
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 80px;
+    margin-right: 50px;
+    box-shadow: 5px 5px 20px 20px whitesmoke;
+    background-color: whitesmoke;
+
+}
+
+.head3div {
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.harmonydiv {
+    display: inline-block;
+    width: 1000px;
+    background-image: url(/img/clouds.png);
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 80px;
+    margin-right: 50px;
+    box-shadow: 5px 5px 20px 20px whitesmoke;
+    background-color: whitesmoke;
+}
+
+.harmonyp {
+    float: right;
+    width: 497px;
+    height: 450px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.harmony {
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     float: left;
 }
+
+.paladindiv {
+    display: inline-block;
+    width: 1000px;
+    background-image: url(/img/cloud2.png);
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 80px;
+    margin-right: 50px;
+    box-shadow: 5px 5px 20px 20px whitesmoke;
+    background-color: whitesmoke;
+}
+
+
+.paladinp {
+    float: left;
+    width: 497px;
+    height: 450px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.paladin {
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.shadowdiv {
+    display: inline-block;
+    width: 1000px;
+    background-image: url(/img/cloud3.png);
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 80px;
+    margin-right: 50px;
+    box-shadow: 5px 5px 20px 20px whitesmoke;
+    background-color: whitesmoke;
+
+}
+
+.shadowp {
+    float: right;
+    width: 497px;
+    height: 450px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.shadow {
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
