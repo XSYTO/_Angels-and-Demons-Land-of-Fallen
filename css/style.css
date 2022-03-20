@@ -5,4 +5,81 @@ body * {
     vertical-align: top;
     box-sizing: border-box;
 }
-    
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(black , black , darkred , black , darkred)
+
+}
+
+body > header,
+body > main {
+    display: inline-block;
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+    color: whitesmoke;
+}
+
+header > div {
+    font-size: 30px;
+
+}
+
+header > img {
+    float: left;
+    height: 500px;
+    width: 1000px
+}
+
+header > div {
+    display: inline-block;
+    width: 1000px;
+    border: 2px solid black;
+    padding: 40px;
+
+}
+
+header > div > nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav > a {
+    display: inline-block;
+    font-size: 20px;
+    padding-bottom: 2px;
+    line-height: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav > a:hover {
+    color: whitesmoke;
+    font-size: 36px;
+    margin-top: 8px;
+    box-shadow: 5px 5px 20px 20px darkred;
+    background-color: darkred;
+}
+
+main {
+    display: inline-block;
+    border: 3px solid black;
+
+}
+
+main > div > h2 {
+    text-align: center;
+    font-size: 40px;
+    border: 3px solid black;
+}
+
+main > div > p {
+    display: inline-block;
+}
+
+main > div > p > img {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
