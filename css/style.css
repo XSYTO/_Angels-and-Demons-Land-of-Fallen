@@ -8,7 +8,7 @@ body * {
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url(/img/bakcgroundweb.png);
+    background-image: url(../../img/bakcgroundweb.png);
     background-repeat: no-repeat;
     background-color: black;
     background-size: cover;
@@ -44,7 +44,7 @@ header > div {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     padding: 40px;
-    background-image: url(/img/cloud4.png);
+    background-image: url(../../img/cloud4.png);
     border-radius: 20px;
     margin: 20px;
     margin-top: 80px;
@@ -92,7 +92,7 @@ main {
     height: 50px;
     text-align: center;
     font-size: 40px;
-    background-image: url(/img/cloud4.png);
+    background-image: url(../../img/cloud4.png);
     border-radius: 20px;
     margin: 20px;
     margin-top: 80px;
@@ -107,7 +107,7 @@ main {
     margin-top: 20px;
     border-radius: 10px;
     border: 2px solid black;
-    background-image: url(/img/cloud4.png);
+    background-image: url(../../img/cloud4.png);
     border-radius: 20px;
     margin: 20px;
     margin-top: 80px;
@@ -123,7 +123,7 @@ main {
     height: 150px;
     text-align: center;
     padding-top: 20px;
-    background-image: url(/img/cloud4.png);
+    background-image: url(../../img/cloud4.png);
     border-radius: 20px;
     margin: 20px;
     margin-top: 80px;
@@ -152,7 +152,7 @@ main {
     text-align: center;
     font-size: 40px;
     margin-top: 10px;
-    background-image: url(/img/cloud4.png);
+    background-image: url(../../img/cloud4.png);
     border-radius: 20px;
     margin: 20px;
     margin-top: 80px;
@@ -171,7 +171,7 @@ main {
 .harmonydiv {
     display: inline-block;
     width: 1000px;
-    background-image: url(/img/clouds.png);
+    background-image: url(../../img/clouds.png);
     border-radius: 20px;
     margin: 20px;
     margin-top: 80px;
@@ -201,7 +201,7 @@ main {
 .paladindiv {
     display: inline-block;
     width: 1000px;
-    background-image: url(/img/cloud2.png);
+    background-image: url(../../img/cloud2.png);
     border-radius: 20px;
     margin: 20px;
     margin-top: 80px;
@@ -233,7 +233,7 @@ main {
 .shadowdiv {
     display: inline-block;
     width: 1000px;
-    background-image: url(/img/cloud3.png);
+    background-image: url(../../img/cloud3.png);
     border-radius: 20px;
     margin: 20px;
     margin-top: 80px;
