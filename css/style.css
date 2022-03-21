@@ -13,7 +13,7 @@ html {
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url(/img/bakcgroundweb.jpg);
+    background-image: url(../img/bakcgroundweb.jpg);
     background-repeat: no-repeat;
     background-color: black;
     background-size: cover;
@@ -157,7 +157,7 @@ main {
     text-align: center;
     font-size: 40px;
     margin-top: 10px;
-    background-image: url(../img/cloud4.png);
+    background-image: url(.../img/cloud4.png);
     border-radius: 20px;
     margin: 20px;
     margin-top: 80px;
@@ -176,7 +176,7 @@ main {
 .harmonydiv {
     display: inline-block;
     width: 1000px;
-    background-image: url(../img/clouds.png);
+    background-image: url(.../img/clouds.png);
     border-radius: 20px;
     margin: 20px;
     margin-top: 80px;
@@ -206,7 +206,7 @@ main {
 .paladindiv {
     display: inline-block;
     width: 1000px;
-    background-image: url(../img/cloud2.png);
+    background-image: url(.../img/cloud2.png);
     border-radius: 20px;
     margin: 20px;
     margin-top: 80px;
@@ -238,7 +238,7 @@ main {
 .shadowdiv {
     display: inline-block;
     width: 1000px;
-    background-image: url(../img/cloud3.png);
+    background-image: url(.../img/cloud3.png);
     border-radius: 20px;
     margin: 20px;
     margin-top: 80px;
