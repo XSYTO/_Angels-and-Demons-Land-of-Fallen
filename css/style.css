@@ -97,7 +97,7 @@ main {
     height: 50px;
     text-align: center;
     font-size: 40px;
-    background-image: url(http://localhost:3666/img/cloud4.png);
+    background-image: url(../img/cloud4.png);
     border-radius: 20px;
     margin: 20px;
     margin-top: 80px;
@@ -112,7 +112,7 @@ main {
     margin-top: 20px;
     border-radius: 10px;
     border: 2px solid black;
-    background-image: url(http://localhost:3666/img/cloud4.png);
+    background-image: url(../img/cloud4.png);
     border-radius: 20px;
     margin: 20px;
     margin-top: 80px;
@@ -128,7 +128,7 @@ main {
     height: 150px;
     text-align: center;
     padding-top: 20px;
-    background-image: url(http://localhost:3666/img/cloud4.png);
+    background-image: url(../img/cloud4.png);
     border-radius: 20px;
     margin: 20px;
     margin-top: 80px;
