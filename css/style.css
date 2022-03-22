@@ -28,8 +28,10 @@ body > main {
 }
 
 header > div {
+    width: 1000px;
+    border: 3px solid black;
+    padding: 40px;
     font-size: 30px;
-
 }
 
 header > img {
@@ -42,34 +44,13 @@ header > img {
     background-color: whitesmoke;
 }
 
-header > div {
-    display: inline-block;
-    width: 1000px;
-    border: 3px solid black;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    padding: 40px;
-    background-image: url(../img/cloud4.png);
-    border-radius: 20px;
-    margin: 20px;
-    margin-top: 80px;
-    margin-right: 50px;
-    box-shadow: 2px 2px 20px 20px whitesmoke;
-    background-color: whitesmoke;
-
-}
 
 header > div > nav {
     float: right;
     margin-top: 10px;
 }
 
-main > img {
-    margin-top: 20px;
-}
-
 nav > a {
-    display: inline-block;
     font-size: 20px;
     padding-bottom: 2px;
     line-height: 20px;
@@ -86,17 +67,20 @@ nav > a:hover {
     background-color: whitesmoke;
 }
 
-main {
-    display: inline-block;
-
-
+main > img {
+    width: 1000px;
+    height: 100px;
+    margin-top: 20px;
 }
 
-.head2 {
+.card-title {
     width: 1000px;
     height: 50px;
     text-align: center;
     font-size: 40px;
+}
+
+.card-title-img {
     background-image: url(../img/cloud4.png);
     border-radius: 20px;
     margin: 20px;
@@ -106,86 +90,34 @@ main {
     background-color: whitesmoke;
 }
 
-.head2div {
+.card-body {
     display: inline-block;
-    width: 994px;
+    width: 1000px;
     margin-top: 20px;
-    border-radius: 10px;
-    border: 2px solid black;
-    background-image: url(../img/cloud4.png);
     border-radius: 20px;
     margin: 20px;
     margin-top: 80px;
     margin-right: 50px;
     box-shadow: 5px 5px 20px 20px whitesmoke;
     background-color: whitesmoke;
-
 }
 
-.head2div1 {
+.card-news {
     float: right;
     width: 400px;
     height: 150px;
     text-align: center;
     padding-top: 20px;
-    background-image: url(../img/cloud4.png);
-    border-radius: 20px;
-    margin: 20px;
-    margin-top: 80px;
-    margin-right: 50px;
-    box-shadow: 5px 5px 20px 20px whitesmoke;
-    background-color: whitesmoke;
-
 }
 
-.head2div2 {
-    float: left;
-    width: 400px;
-    height: 500px;
-}
-
-.head2div2img {
+.card-news-img {
     width: 400px;
     height: 460px;
     border: 2px solid black;
     margin: 20px;
 }
 
-.head3 {
-    width: 1000px;
-    height: 50px;
-    text-align: center;
-    font-size: 40px;
-    margin-top: 10px;
-    background-image: url(../img/cloud4.png);
-    border-radius: 20px;
-    margin: 20px;
-    margin-top: 80px;
-    margin-right: 50px;
-    box-shadow: 5px 5px 20px 20px whitesmoke;
-    background-color: whitesmoke;
-
-}
-
-.head3div {
-    display: inline-block;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-.harmonydiv {
-    display: inline-block;
-    width: 1000px;
-    background-image: url(../img/clouds.png);
-    border-radius: 20px;
-    margin: 20px;
-    margin-top: 80px;
-    margin-right: 50px;
-    box-shadow: 5px 5px 20px 20px whitesmoke;
-    background-color: whitesmoke;
-}
-
-.harmonyp {
+.card-text-right {
     float: right;
     width: 497px;
     height: 450px;
@@ -193,7 +125,17 @@ main {
     margin-top: 20px;
 }
 
-.harmony {
+.card-text-left {
+    float: left;
+    width: 497px;
+    height: 450px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.card-img-left {
     width: 400px;
     height: 500px;
     border: 2px solid black;
@@ -203,29 +145,7 @@ main {
     float: left;
 }
 
-.paladindiv {
-    display: inline-block;
-    width: 1000px;
-    background-image: url(../img/cloud2.png);
-    border-radius: 20px;
-    margin: 20px;
-    margin-top: 80px;
-    margin-right: 50px;
-    box-shadow: 5px 5px 20px 20px whitesmoke;
-    background-color: whitesmoke;
-}
-
-
-.paladinp {
-    float: left;
-    width: 497px;
-    height: 450px;
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.paladin {
+.card-img-right {
     width: 400px;
     height: 500px;
     border: 2px solid black;
@@ -233,37 +153,6 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
     float: right;
-}
-
-.shadowdiv {
-    display: inline-block;
-    width: 1000px;
-    background-image: url(../img/cloud3.png);
-    border-radius: 20px;
-    margin: 20px;
-    margin-top: 80px;
-    margin-right: 50px;
-    box-shadow: 5px 5px 20px 20px whitesmoke;
-    background-color: whitesmoke;
-
-}
-
-.shadowp {
-    float: right;
-    width: 497px;
-    height: 450px;
-    text-align: left;
-    margin-top: 20px;
-}
-
-.shadow {
-    width: 400px;
-    height: 500px;
-    border: 2px solid black;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    float: left;
 }
 
 .footer {
@@ -277,12 +166,8 @@ main {
     border: 3px solid black;
     box-shadow: 2px 2px 20px 20px whitesmoke;
     background-color: whitesmoke;
-}
-
-footer > p {
     color: whitesmoke;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
-
